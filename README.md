@@ -1,5 +1,7 @@
 # 🔗 URL Shortener API
 
+[![CI](https://github.com/ifaizanrathore/url-shortener-api/actions/workflows/ci.yml/badge.svg)](https://github.com/ifaizanrathore/url-shortener-api/actions/workflows/ci.yml)
+
 A small, well-tested URL shortener service built with **Express 5**, **TypeScript** and **Zod**.
 
 Create short links with random or custom slugs, set an optional expiry, and track clicks. Storage sits behind a `LinkStore` interface, so the in-memory default can be swapped for Redis or a SQL database without changing the routes.
